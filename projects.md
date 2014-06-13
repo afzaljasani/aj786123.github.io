@@ -3,22 +3,19 @@ layout: page
 title: Projects
 ---
 
-<p class="message">
-  Hey there! This is my projects page. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
+<div class="project">
+  {% for project in paginator.projects %}
+  <div class="project">
+    <h1 class="project-title">
+      <a href="{{ project.url }}">
+        {{ project.title }}
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="project-date">{{ project.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ project.content }}
   </div>
   {% endfor %}
 </div>

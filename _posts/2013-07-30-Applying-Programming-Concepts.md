@@ -9,7 +9,7 @@ I first signed up for Codecademy about six months ago, but didn’t stay consist
 
 What I soon came to realize is that I have been using these same programming concepts for years now. The other day at my internship, I was tasked to complete some vlookup formulas in a few Excel spreadsheets. Simply put, a vlookup formula is just like a function which finds and references another value and then outputs it. While the formatting is different and much simpler than something someone would see in Python, the overall concept is extremely similar. Just like improper syntax produces an error in Python, the same occurs with these Excel formulas. Another formula that comes to mind is the SUM(IF) formula in Excel. This can take advantage of a nested “if” statement with either a Boolean or array and calculate sums. Each individual cell of a spreadsheet also acts as a little interpreter waiting to take inputted data and transform it somehow. These formulas, along with several others, in Excel make life easier by making quick calculations. Likewise, Python uses “if” statements, Booleans, and arrays.
 
-![My helpful screenshot]({{ site.url }}/assets/excel.gif)
+![My helpful screenshot](/assets/excel.gif)
 
 ![Screenshot]({{ site.url }}/assets/if-else.png)
 

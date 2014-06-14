@@ -9,13 +9,14 @@ permalink:        pretty
 title:            Afzal Jasani
 tagline:          Just Bloggin Around
 description:      Learning and exploring new things
-url:              aj786123.github.io
+url:              localhost:4000
+paginate:         3
 
 author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
-paginate:         3
+
 
 # Custom vars
 version:          2.0.0

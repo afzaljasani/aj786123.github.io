@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What are Valuable Metrics for Startups?
+comments: true
 description: metrics, startups, churn, customer life time value, sales
 ---
 

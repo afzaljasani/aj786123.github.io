@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Off the Beaten Track
+description: parsely, parse.ly, intern, business, marketing, startup
 ---
 
 I have been at Parse.ly for about six months now, working as the business and marketing intern and one thing I have realized is that I have learned more than I could have imagined. This revelation came to me through having the responsibility of doing any task assigned to me. Whether I was a rookie or a veteran in an area, I realized that being at a company such as Parse.ly allowed me to hone and develop skills I never thought I would possess. I was required to research and teach myself about marketing, advertising, and analytics. This informal way of absorbing new knowledge led to excitement and new endeavors. Never have I felt so free and unrestricted than at Parse.ly, knowing I could virtually work on any project and make a positive and powerful impact.

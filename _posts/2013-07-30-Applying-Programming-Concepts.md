@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Applying Programming Concepts to Everyday Life
+description: python, programming, excel, problem solving
 ---
 
 Over the past few months, I have been slowly learning Python. I wanted to learn programming as a way of expanding my knowledge and becoming familiar with software engineering. While I do have more of a business and analysis background, I still find it important, especially in this day and age, to know a little bit of programming. Python has proven to be beneficial in data analysis and data mining. Through Python, I have also developed a more logical and efficient way of problem solving. Rather than just getting the answer, I constantly try to make the process more efficient. Applying this mentality to everyday life makes me approach different tasks from different angles. As I progress through my career and improve my skills in all areas, I will be tasked to use higher-level tools to complete extensive analyses. These tools require simple-to-intermediate understandings of constructing proper syntax, and Python has really helped me absorb those skills. Over the past few months, I have been using two different methods to teach myself.

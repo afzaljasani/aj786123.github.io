@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using an API for the First Time
+description: api, github, flowdock, gif, python
 ---
 
 This past summer as I continued my internship with Parse.ly I got the opportunity to work on a side project that did not involve business or marketing, but instead programming. Everyone at Parse.ly loved the idea of me going out of my way to learn something and program it. This small project came up one day when we were using our IRC client, Flowdock, and the CEO asking if we could somehow write commands into Flowdock which would then return GIFs of the specific keywords we included. As any other tech startup we love using GIFs :) For example anyone in any of the flows(chats) could put “!catgif” and Flowdock would return a random GIF of a cat! Sounds pretty awesome right? Well the really awesome part is that Flowdock actually has an API that users can interact with and create such a program. Having only minimal python skills and a little help from a fellow intern I got started on the project. The specific API which I used for this project was the streaming API and the push API. I also needed to find a resource where I could pull random GIFs, for this I used <http://thecatapi.com/&#8221>.

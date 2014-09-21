@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What are Valuable Metrics for Startups?
+description: metrics, startups, churn, customer life time value, sales
 ---
 
 Working in the startup scene has introduced me to several terms or acronyms I had never heard of before. Many of these terms are used in board meetings or shown to investors to represent how a company may be doing or how they are projected to do so in the following years. Being familiar or even an expert with these so called metrics is extremely important when working on the business or sales side of a startup.

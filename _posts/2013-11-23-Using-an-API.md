@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using an API for the First Time
+comments: true
 description: api, github, flowdock, gif, python
 ---
 

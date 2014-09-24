@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Off the Beaten Track
+comments: true
 description: parsely, parse.ly, intern, business, marketing, startup
 ---
 

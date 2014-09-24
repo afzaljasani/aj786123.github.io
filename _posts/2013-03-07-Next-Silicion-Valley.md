@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Can New York City be the next Silicon Valley?
+comments: true
 description: new york, silicon valley, startups, nyu, students
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Applying Programming Concepts to Everyday Life
+comments: true
 description: python, programming, excel, problem solving
 ---
 

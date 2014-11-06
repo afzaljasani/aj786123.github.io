@@ -26,3 +26,4 @@ Other factors which stood out to me were the quarter in which most of these comp
 
 
 
+

@@ -5,11 +5,21 @@ comments: true
 description: 
 ---
 
-A few weeks ago I finally decided to install Google Analytics on my personal website. The reason behind installing GA was to get a better understanding of how large of an audience was coming to my website and to see how they were interacting with the different pages. GA is great if you know how to navigate through all of its features and pull insights from the various metrics they track. I will admit though, if I had not learned how to GA from previous internships or my current work experience, it would be a bit overwhelming. 
+A few weeks ago I finally decided to install Google Analytics on my personal website. The reason behind installing GA was to get a better understanding of how large of an audience was coming to my website and how they were interacting with each article. GA is great if you know how to navigate through all of its features and pull insights from the various metrics they track. I will admit though, if I had not learned how to use GA from previous internships or my current work experience, it would be a bit overwhelming. GA is robust and offers many tutorials through Google to become an analytics master. 
 
-Installing GA tracking code was actually pretty straightforward. I first went to the Google Analytics page to set up my account and get the tracking code. This is the screen to access the account and get the tracking code. 
+Installing GA tracking code was actually pretty straightforward. I first went to the Google Analytics page to set up my account and get the tracking code. This is the screen to access your account and get the tracking code. 
 
 ![My helpful screenshot](/assets/GA_homescreen.png)
 
+![Screenshot](/assets/GA_admin.png)
 
-![My second helpful screenshot](/assets/tracking_code.png)
+![My second helpful screenshot](/assets/GA_trackingcode.png)
+
+After you your tracking code, you need to navigate inside your folers to the _includes folder. In this folder you should open up the head.html file. Inside the head.html file you will want to paste the tracking code in between the </head> tag. 
+
+![texteditor](/assets/GA_texteditor.png)
+
+
+
+
+

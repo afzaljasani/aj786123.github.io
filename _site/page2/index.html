@@ -87,6 +87,8 @@
     
       
     
+      
+    
 
     <span class="sidebar-nav-item">Currently v2.0.0</span>
   </nav>
@@ -118,6 +120,48 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/2013/11/23/Using-an-API/">
+        Using an API for the First Time
+      </a>
+    </h1>
+
+    <span class="post-date">23 Nov 2013</span>
+
+    <p>This past summer as I continued my internship with Parse.ly I got the opportunity to work on a side project that did not involve business or marketing, but instead programming. Everyone at Parse.ly loved the idea of me going out of my way to learn something and program it. This small project came up one day when we were using our IRC client, Flowdock, and the CEO asking if we could somehow write commands into Flowdock which would then return GIFs of the specific keywords we included. As any other tech startup we love using GIFs :) For example anyone in any of the flows(chats) could put “!catgif” and Flowdock would return a random GIF of a cat! Sounds pretty awesome right? Well the really awesome part is that Flowdock actually has an API that users can interact with and create such a program. Having only minimal python skills and a little help from a fellow intern I got started on the project. The specific API which I used for this project was the streaming API and the push API. I also needed to find a resource where I could pull random GIFs, for this I used <a href="http://thecatapi.com/&amp;#8221">http://thecatapi.com/&amp;#8221</a>.</p>
+
+<p>What I needed to do first was lay out a few functions which would take in the information I needed and leave the rest out. Using the stream API enabled me to process all the information that went into each flow and find specific keywords that matched what I wanted to use as a command. After finding the specific keywords and if they matched the next function would send a GIF back through flowdock in that specific flow where the keyword was found. I was able to change who appeared to return the GIF as well. As a default I put it as Flowbot because it was our very own robot which interacted with us. Later on people used the code to change it to other people’s name and do funny things with it.</p>
+
+<p>Overall, using the Flowdock API was an interesting and enriching experience. I think it was a good API to use as a beginner programmer and Flowdock themselves provided plenty of documentation to help me along the way. As I practice and learn more python I hope to user other APIs to build different programs.</p>
+
+<p>You can find the code here on github: <a href="https://github.com/aj786123/pyFlowBot/blob/master/pyflowbot.py">https://github.com/aj786123/pyFlowBot/blob/master/pyflowbot.py</a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2013/07/30/Applying-Programming-Concepts/">
+        Applying Programming Concepts to Everyday Life
+      </a>
+    </h1>
+
+    <span class="post-date">30 Jul 2013</span>
+
+    <p>Over the past few months, I have been slowly learning Python. I wanted to learn programming as a way of expanding my knowledge and becoming familiar with software engineering. While I do have more of a business and analysis background, I still find it important, especially in this day and age, to know a little bit of programming. Python has proven to be beneficial in data analysis and data mining. Through Python, I have also developed a more logical and efficient way of problem solving. Rather than just getting the answer, I constantly try to make the process more efficient. Applying this mentality to everyday life makes me approach different tasks from different angles. As I progress through my career and improve my skills in all areas, I will be tasked to use higher-level tools to complete extensive analyses. These tools require simple-to-intermediate understandings of constructing proper syntax, and Python has really helped me absorb those skills. Over the past few months, I have been using two different methods to teach myself.</p>
+
+<p>I first signed up for Codecademy about six months ago, but didn’t stay consistent with it until about a month ago. While Codecademy was a great introduction to Python programming, it was lacking in a few ways. I wasn’t learning theory, the information was hard to retain, and the hints gave too much help. Instead of quitting on Codecademy, I signed up for the Intro to Computer Science class on Udacity.com. Using a different method, Udacity is able to “teach” through videos with a real instructor and in-depth explanations of computer science theories. The frequent quizzes also assist in recalling important concepts from earlier lessons.</p>
+
+<p>What I soon came to realize is that I have been using these same programming concepts for years now. The other day at my internship, I was tasked to complete some vlookup formulas in a few Excel spreadsheets. Simply put, a vlookup formula is just like a function which finds and references another value and then outputs it. While the formatting is different and much simpler than something someone would see in Python, the overall concept is extremely similar. Just like improper syntax produces an error in Python, the same occurs with these Excel formulas. Another formula that comes to mind is the SUM(IF) formula in Excel. This can take advantage of a nested “if” statement with either a Boolean or array and calculate sums. Each individual cell of a spreadsheet also acts as a little interpreter waiting to take inputted data and transform it somehow. These formulas, along with several others, in Excel make life easier by making quick calculations. Likewise, Python uses “if” statements, Booleans, and arrays.</p>
+
+<p><img src="/assets/excel.gif" alt="My helpful screenshot"></p>
+
+<p><img src="/assets/if-else.png" alt="Screenshot"></p>
+
+<p>After coming to this realization, Python has become much easier to understand conceptually.Things like Loops have meaning behind them and are more useful than ever. The syntax as well, reads like a book in my mind, instead of a bunch of random words separated by colons, quotations, and numbers. No longer do I fear its complexity but rather I am able to compare it to functions I am already familiar with. It allows me to truly appreciate how many awesome things I can do with it. While I am still only a beginner in Python, I believe this special understanding will help guide me through further lessons. Finding a way to compare two seemingly dissimilar things can help in all aspects of life—I’m just starting with my discoveries in Python and Excel, after all.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/2013/07/03/Off-the-Beaten-Track/">
         Off the Beaten Track
       </a>
@@ -135,59 +179,11 @@
 
   </div>
   
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2013/06/21/Big-Ideas/">
-        Are Big Ideas of the Past Now?
-      </a>
-    </h1>
-
-    <span class="post-date">21 Jun 2013</span>
-
-    <p>As more and more individuals jump on the bangwagon of starting their own companies and pitching their ideas to VCs, the more dulled down ideas are starting to appear. Across the industry in different fields, growing competitors are hacking and improving but are dismissing the “big ideas.” It could be because most startups have a 99% fail rate, so why not play it safe and hack something that has already been done before. However, it seems that the growing number of startups are lacking the innovation and quailty they once had over 10 years ago. Chamath Palihapitiya, a venture capitalist and founder of The Social+Capital Partnership has stated the following: “We are at an absolute minimum in terms of things that are being started.” There are several sectors which could use more innovation and growth such as health care, education, and energy. But the lack of big ideas is making it a struggle for both investors and founders.</p>
-
-<p>While looking back at the past and comparing it to the present might not be the best analogy, it does prove a point. VCs and founders are playing it safe to make minimal improvements to platforms which have been around since 2003. For huge revolutions, the ideas must stem from somewhere else, not the start up scene. It is not wrong to want bigger and better ideas, but given the circumstances we can not hope for something of the past to reappear.</p>
-
-<p>Instead maybe we should wait and see what comes about in the next few years. There could perhaps be an idea we have never thought of or maybe a product which could tie many open ends together, maybe it is 3D printing, maybe it is a transformation in online education. Maybe Google will bring the next revolution in online connecivity. But until then we can only focus on making what we have more sustainable and scaleable in order to make these ideas expand beyond ourselves.</p>
-
-<p><em>Reference Links</em></p>
-
-<ul>
-<li><a href="http://finance.fortune.cnn.com/tag/chamath-palihapitiya/">http://finance.fortune.cnn.com/tag/chamath-palihapitiya/</a></li>
-<li><a href="http://techcrunch.com/2013/04/29/chamath-palihapitiya-disrupt/">http://techcrunch.com/2013/04/29/chamath-palihapitiya-disrupt/</a></li>
-</ul>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2013/03/07/Next-Silicion-Valley/">
-        Can New York City be the next Silicon Valley?
-      </a>
-    </h1>
-
-    <span class="post-date">07 Mar 2013</span>
-
-    <p>Over the past couple years many have questioned New York City being the next Silicon Valley. Is New York City really the next tech hub? Or does that title remain to be claimed by someone else, such as London, Dublin, Chicago, or Berlin? Before we can decide, we need to analyze this new trend in technology and tech startups. What actually drives innovation and the ability to successfully create a tech startup? Location is a major factor. Where you are determines which investors and VCs are willing to invest in your company. The higher the volume of investors in your area means the greater the chance of securing funding and becoming a successful company. Location also includes culture, infrastructure, people, capital, and regulations. Where is the culture most dedicated towards innovation? Where is the best infrastructure for people and transportation?  Where is the capital for entrepreneurs and opportunities? Where are the regulations that make it easiest to attain growth when startups can be to uncertain for future? Where many cities lack in these categories others excel. But when planning for the future, where do you pick to start your uncertain, limited, and indefinite fate?</p>
-
-<p>As an NYU student I pride myself in its successes. Most recently, there was an article which ranked NYU as one of the top 6 universities that graduates the most entrepreneurs. What is it about NYU that pushes individuals to be entrepreneurs? Maybe its the fact that our education is so pricey that we need an effective way to get out of debt. Or maybe it’s because these top notch professors focus on students to create something of their own. The idea of ownership is consistently illustrated. Be your own boss, create your own realm, own your product or design. The capacity to build and lead generates a formula for entrepreneurship. Of the 6, NYU and Harvard are experiencing the fastest growth. Tech and software, specifically, are leading the two in funding and the number of deals closed. With NYU graduates seeing increased growth in technology over the next couple of years, it seems as New York City will have an abundance of entrepreneur-minded individuals at its disposal for innovative ideas and possibly the next Google. That is, if it isn’t already here.</p>
-
-<p>In my opinion, more NYU students are immersing themselves in the tech startup ecosystem. Slowly but surely they are starting to understand the benefits of working within a small company and doing “meaningful” work. Being a part of a small team forces you to jump outside of your comfort zone and work on projects you may not already have an expertise in. Eventually, you become a jack of all trades, a craftsmen in all areas of business, marketing, sales, and technology. You become a valuable asset to your team because you posses and display knowledge of all aspects of a company. I have a lot of friends who have been working in finance for the past 3 years and many of them are now sick and tired of the long hours and meaningless work which is never recognized. They are witnessing the importance of creating something and seeing it grow, and the opportunity to be something or someone. No longer is it about the money and security of a corporate job, but instead the unpredictable adventure of becoming something from absolutely nothing.</p>
-
-<p><em>Reference Links</em></p>
-
-<ul>
-<li><a href="http://edudemic.com/2013/03/which-schools-graduate-the-most-entrepreneurs/">http://edudemic.com/2013/03/which-schools-graduate-the-most-entrepreneurs/</a></li>
-<li><a href="http://www.wired.com/business/2013/03/you-cant-help-loving-tech-companies/">http://www.wired.com/business/2013/03/you-cant-help-loving-tech-companies/</a></li>
-</ul>
-
-  </div>
-  
 </div>
 
 <div class="pagination">
   
-    <span class="pagination-item older">Older</span>
+    <a class="pagination-item older" href="/page3">Older</a>
   
   
     

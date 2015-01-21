@@ -3,6 +3,7 @@ layout: post
 title: Can New York City be the next Silicon Valley?
 comments: true
 description: new york, silicon valley, startups, nyu, students
+category: blog
 ---
 
 Over the past couple years many have questioned New York City being the next Silicon Valley. Is New York City really the next tech hub? Or does that title remain to be claimed by someone else, such as London, Dublin, Chicago, or Berlin? Before we can decide, we need to analyze this new trend in technology and tech startups. What actually drives innovation and the ability to successfully create a tech startup? Location is a major factor. Where you are determines which investors and VCs are willing to invest in your company. The higher the volume of investors in your area means the greater the chance of securing funding and becoming a successful company. Location also includes culture, infrastructure, people, capital, and regulations. Where is the culture most dedicated towards innovation? Where is the best infrastructure for people and transportation?  Where is the capital for entrepreneurs and opportunities? Where are the regulations that make it easiest to attain growth when startups can be to uncertain for future? Where many cities lack in these categories others excel. But when planning for the future, where do you pick to start your uncertain, limited, and indefinite fate?

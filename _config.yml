@@ -3,7 +3,7 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        /:categories/:title
 
 # Setup
 title:            Afzal Jasani
@@ -19,3 +19,8 @@ paginate:         3
 
 # Custom vars
 version:          2.0.0
+collections:
+  projects:
+    output: true 
+  photos:
+    output: true  

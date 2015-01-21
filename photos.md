@@ -1,14 +1,15 @@
 ---
 layout: page
-title: Projects
+title: Photos
 ---
+
 <p class="message">
-	Hey there! This is my Projects page. I will be updating it with any programming projects I am working on or have finished.
+	Hey there! This is my Photos page. I will be updating it with photos I have taken.
 </p>
 
 
 <div class="posts">
-    {% for post in site.projects %}
+    {% for post in site.photos %}
     <div class="post">
         <a href="{{ post.url | prepend: site.baseurl }}">
           <h1 class="post-title">
@@ -22,4 +23,3 @@ title: Projects
     </div>
     {% endfor %}
 </div>
-

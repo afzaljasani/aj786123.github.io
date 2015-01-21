@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="posts">
+    <h1 class="title">{{ page.title }}</h1>
+    {% for post in site.photos %}
+         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+       {{ post.content }}
+
+    {% endfor %}
+</div>

@@ -16,7 +16,7 @@ Installing GA tracking code was actually pretty straightforward. I first went to
 
 ![My second helpful screenshot](/assets/GA_trackingcode.png)
 
-After you find your tracking code, you need to navigate inside your folers to the _includes folder. In this folder you should open up the head.html file. Inside the head.html file you will want to paste the tracking code in between the </head> tag. 
+After you find your tracking code, you need to navigate inside your folers to the _includes folder. In this folder you should open up the head.html file. Inside the head.html file you will want to paste the tracking code in between the head tag. 
 
 ![texteditor](/assets/GA_texteditor.png)
 

@@ -3,6 +3,7 @@ layout: post
 title: Funding At It's Finest
 comments: true
 description: metrics, startups, funding, venture capital, seed A, series A 
+category: blog
 ---
 
 Many startups struggle to find the proper funding even if they create a great product. These startups range across all industries and can be B2B (business to business) or B2C (business to consumer). I believe that factors such as timing and location can increase the possibility of getting funding as a startup. Timing and location are extremely important to both investors and founders. Timing, for the sake of this article is, referring to which quarter the startup is raising capital. Location, means the actual geographical region that the startup is based out of. 

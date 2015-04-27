@@ -2,7 +2,7 @@
 layout: post
 title: Installing Google Analytics on Jekyll Site
 comments: true
-description: 
+description: google analytics, data, analytics, GA, jekyll
 category: blog
 ---
 

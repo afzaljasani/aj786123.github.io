@@ -5,4 +5,4 @@ comments: true
 category: photos
 ---
 
-![picture](/assets/img_2230.jpg)
+![picture](/assets/IMG_2230.JPG)

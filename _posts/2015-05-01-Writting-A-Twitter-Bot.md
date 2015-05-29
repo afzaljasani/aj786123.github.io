@@ -10,6 +10,8 @@ I recently completed a fun python project which involved creating a twitter bot.
 
 The first time I wrote the program I tried using a lyrics API website called LyricWikia API. After realizing it only returned lyrics in a psuedo-JSON format, I ran into several other problems with escape erros. Going back to what my friend originally suggested with web scraping, I decided to used azlyrics.com for its simplicity in HTML format. I also decided to use Twython, the python wrapper for the Twitter API.
 
+<!--more-->
+
 Urllib2 and Requests were libraries I originally had no experience with either but soon learned how powerful they were. Getting to pages and pulling the HTML was really interesting as well. 
 
 I organized my program in the following order:

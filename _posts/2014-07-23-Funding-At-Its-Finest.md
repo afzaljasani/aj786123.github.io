@@ -10,6 +10,8 @@ Many startups struggle to find the proper funding even if they create a great pr
 
 Yo!, the messaging app which allows users to send the word "Yo" to other user, has riled up a ton of people because of its simplicity and "uselessness". Just recently they raised $1.2 million in seed funding, at a time when many great startups are overlooked and find difficutly in raising funding. When the news broke, many of my coworkers laughed. Some thought they could have come up with the app idea themselves. Startups and funding can be a touchy subject. I thought it would be interesting to analyze funding trends and see if any correlations existed. I decided to use a tool called datapad and the crunchbase data set (last updated April 2014)
 
+<!--more-->
+
 Crunchbase is a database used to aggregate startup activity. It contains information about founders, investors, funding rounds, location, news, and even more. I use crunchbase pretty often to keep track of new startups being funded and which startups are trending across the web. Using the data set they release publically and datapad.io I drilled down into one of the most important funding rounds, the Series A.
 
 Series A 

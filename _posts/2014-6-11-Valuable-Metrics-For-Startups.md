@@ -10,6 +10,8 @@ Working in the startup scene has introduced me to several terms or acronyms I ha
 
 The most specific of these terms fall under a category called business metrics. Business metrics help a startup measure their success and performance. These metrics can be shown as a rate or an absolute value. In my experience absolute values are not as versatile as rates or ratios. The best metrics are easy to understand and can be comparative. When I say easy to understand I mean your employees can easily refer to it and won't forget it. Having comparative metrics helps a company look at metrics from different time periods and segments. It is much easier to assess trends and forecasts future results with comparative metrics. Below you will find an unordered list of metrics I think are valuable for startups and what they mean exactly.
 
+<!--more-->
+
 - Customer Acquisition
 
 Customer acquisition is a defining metric for many startups regardless if they are B2B or B2C. You want to know how many customers you are acquiring month to month and year to year. At the highest level this can tell you how easily adoptable your product or service might be. Breaking it down by acquisition channel is even more beneficial as your marketing team can then determine the most efficient and cost friendly channel to use.

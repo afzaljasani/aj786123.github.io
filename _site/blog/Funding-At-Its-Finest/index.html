@@ -5,13 +5,13 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-  
+  <meta name="description" content="metrics, startups, funding, venture capital, seed A, series A">
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
     
-      Afzal Jasani &middot; 
+      Funding At It's Finest &middot; Afzal Jasani
     
   </title>
 
@@ -122,64 +122,10 @@
       </div>
 
       <div class="container content">
-        <div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog/Writting-A-Twitter-Bot">
-        Writing a Twitter Bot
-      </a>
-    </h1>
-
-    <span class="post-date">01 May 2015</span>
-
-    <p>I recently completed a fun python project which involved creating a twitter bot. The idea came from one of my cowokers who had previously written a twitter bot for fun. He suggested it as project for me to learn more about python and a few different libaries available. I decided it would be funny to scrape lyrics from azlyrics.com and assign them to a famous philosopher. It would look as if the rap lyric line was a quote from them and hopefully cause a few laughs. </p>
-
-<p>The first time I wrote the program I tried using a lyrics API website called LyricWikia API. After realizing it only returned lyrics in a psuedo-JSON format, I ran into several other problems with escape erros. Going back to what my friend originally suggested with web scraping, I decided to used azlyrics.com for its simplicity in HTML format. I also decided to use Twython, the python wrapper for the Twitter API.</p>
-
-<p>Urllib2 and Requests were libraries I originally had no experience with either but soon learned how powerful they were. Getting to pages and pulling the HTML was really interesting as well. </p>
-
-<p>I organized my program in the following order:</p>
-
-<ol>
-<li><p>Pick a random artist from a list that I specified. Currently Nas, Jay-Z and T.I. are being used which should provide plenty of lines.</p></li>
-<li><p>Form the URL of the selected artist&#39;s page. This was used in order to pull up the page with all the artist&#39;s songs ever written. </p></li>
-<li><p>Pick a random song from the list. </p></li>
-<li><p>Pull the lyrics from from the song page using xpath. Plae each line into a list and randomly choose a line from that list.</p></li>
-<li><p>Clean up the lyrics to strip away any escape errors. </p></li>
-<li><p>Assign a random philosopher from a list I specified. </p></li>
-<li><p>Tweet it! </p></li>
-</ol>
-
-<p>Breaking up the program into these steps made it more clear to me what was needed to get the twitter bot running. Overall, the documentation online and various tutorials that are available make this a fun and relatively easy project to accomplish. After I felt the program was done I put it up on Heroku so it could tweet every 2-5 hours. The twitter handle is @philosorhymes and you can find the code here on <a href="https://github.com/aj786123/Twitter_Bot">github</a>. </p>
-
-    <a href="/blog/Writting-A-Twitter-Bot"> Read more </a>
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog/Installing-Google-Analytics-on-a-Jekyll-Site">
-        Installing Google Analytics on Jekyll Site
-      </a>
-    </h1>
-
-    <span class="post-date">01 Oct 2014</span>
-
-    <p>A few weeks ago I finally decided to install Google Analytics on my personal website. The reason behind installing GA was to get a better understanding of how large of an audience was coming to my website and how they were interacting with each article. GA is great if you know how to navigate through all of its features and pull insights from the various metrics they track. I will admit though, if I had not learned how to use GA from previous internships or my current work experience, it would be a bit overwhelming. GA is robust and offers many tutorials through Google to become an analytics master, but sometimes that&#39;s not enough.</p>
-
-    <a href="/blog/Installing-Google-Analytics-on-a-Jekyll-Site"> Read more </a>
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog/Funding-At-Its-Finest">
-        Funding At It's Finest
-      </a>
-    </h1>
-
-    <span class="post-date">23 Jul 2014</span>
-
-    <p>Many startups struggle to find the proper funding even if they create a great product. These startups range across all industries and can be B2B (business to business) or B2C (business to consumer). I believe that factors such as timing and location can increase the possibility of getting funding as a startup. Timing and location are extremely important to both investors and founders. Timing, for the sake of this article is, referring to which quarter the startup is raising capital. Location, means the actual geographical region that the startup is based out of. </p>
+        <div class="post">
+  <h1 class="post-title">Funding At It's Finest</h1>
+  <span class="post-date">23 Jul 2014</span>
+  <p>Many startups struggle to find the proper funding even if they create a great product. These startups range across all industries and can be B2B (business to business) or B2C (business to consumer). I believe that factors such as timing and location can increase the possibility of getting funding as a startup. Timing and location are extremely important to both investors and founders. Timing, for the sake of this article is, referring to which quarter the startup is raising capital. Location, means the actual geographical region that the startup is based out of. </p>
 
 <p>Yo!, the messaging app which allows users to send the word &quot;Yo&quot; to other user, has riled up a ton of people because of its simplicity and &quot;uselessness&quot;. Just recently they raised $1.2 million in seed funding, at a time when many great startups are overlooked and find difficutly in raising funding. When the news broke, many of my coworkers laughed. Some thought they could have come up with the app idea themselves. Startups and funding can be a touchy subject. I thought it would be interesting to analyze funding trends and see if any correlations existed. I decided to use a tool called datapad and the crunchbase data set (last updated April 2014)</p>
 
@@ -197,19 +143,58 @@
 
 <p>In another blog post I will analyze later stage funding rounds and what trends exist currently and what we might expect to see in the future. </p>
 
-    <a href="/blog/Funding-At-Its-Finest"> Read more </a>
-  </div>
   
+   <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'afzaljasanicom'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
 </div>
 
-<div class="pagination">
-  
-    <a class="pagination-item older" href="/page2">Older</a>
-  
-  
-    <span class="pagination-item newer">Newer</span>
-  
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/blog/Writting-A-Twitter-Bot">
+            Writing a Twitter Bot
+            <small>01 May 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/blog/Installing-Google-Analytics-on-a-Jekyll-Site">
+            Installing Google Analytics on Jekyll Site
+            <small>01 Oct 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/blog/Valuable-Metrics-For-Startups">
+            What are Valuable Metrics for Startups?
+            <small>11 Jun 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
 </div>
+
       </div>
     </div>
 
